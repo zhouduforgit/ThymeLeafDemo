@@ -14,6 +14,7 @@ public class LoginController {
         return "login";
     }
 
+
     //接收到form表单的数据，登录操作重定向欢迎页
     @PostMapping("/login")
     public String login(@RequestParam("username") String username,

@@ -17,6 +17,7 @@ public class WelcomeController {
         model.addAttribute("msg","yes");
         model.addAttribute("num","2");
 
+
         List<Person> list=new ArrayList<>();
         Person p1=new Person("AAA","111");
         Person p2=new Person("BBB","222");

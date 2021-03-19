@@ -13,5 +13,6 @@ public class InnerObjectController {
         model.addAttribute("date",new Date());
         return "innerObject";
 
+
     }
 }
