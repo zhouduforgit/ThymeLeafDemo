@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Login</title>
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.4.1/jquery.js}"></script>
+</head>
+<body>
+    <form th:action="@{/login}" method="post">
+        username:
+        <input type="text" name="username">
+        password
+        <input type="password" name="password">
+        <input type="submit" value="提交">
+    </form>
+    <br>
+    <a th:href="@{http://cn.bing.com}">外联网站</a>
+</body>
+</html>

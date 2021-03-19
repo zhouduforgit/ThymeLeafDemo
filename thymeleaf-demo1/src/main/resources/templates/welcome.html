@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    huanyinghuanying
+    <!--字符串的拼接方式
+    <p th:text="${person.name} +' is '+${person.age}"></p>
+    <p th:text="|${person.name}  is ${person.age}|"></p>-->
+
+    <!--<p> 这是第一个msg取值</p>
+    <p th:text="${msg}" th:if="${msg=='yes'}"></p>
+    <p> 这是第2个msg取值</p>
+    <p th:text="${msg}" th:if="${msg=='no'}"></p>
+
+    <div th:switch="${num}">
+        <p th:case="1">1</p>
+        <p th:case="2">2</p>
+        <p th:case="*">*</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>名字</th>
+                <th>年龄</th>
+                <th>index</th>
+                <th>count</th>
+                <th>size</th>
+                <th>current</th>
+                <th>odd</th>
+                <th>first</th>
+                <th>last</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="data:${list}">
+                <td th:text="${data.name}">name</td>
+                <td th:text="${data.age}">age</td>
+                <td th:text="${dataStat.index}">index</td>
+                <td th:text="${dataStat.count}">count</td>
+                <td th:text="${dataStat.size}">size</td>
+                <td th:text="${dataStat.current}">current</td>
+                <td th:text="${dataStat.odd}">odd</td>
+                <td th:text="${dataStat.first}">first</td>
+                <td th:text="${dataStat.last}">last</td>
+            </tr>
+        </tbody>
+    </table>-->
+</body>
+</html>
